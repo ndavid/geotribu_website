@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Geotribu</title>
+    <description>Site indépendant de veille sur la géomatique libre et open source. Articles, tutoriels et revues de presse (#GeoRDP) sur l&#39;information géographique, les SIG, la cartographie, la représentation des données...</description>
+    <link>https://static.geotribu.fr/</link>
+    <atom:link href="https://static.geotribu.fr/feed_rss_updated.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>Geotribu</managingEditor>
+    <docs>https://github.com/geotribu/website</docs>
+    <language>en</language>
+
+    
+    <pubDate>Tue, 05 Jul 2022 04:37:21 -0000</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2022 04:37:21 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.1.0</generator>
+
+    
+    
+    <image>
+      <url>https://cdn.geotribu.fr/img/internal/charte/geotribu_logo_64x64.png</url>
+      <title>Geotribu</title>
+      <link>https://static.geotribu.fr/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>Arramagong en version 3.0</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      <category>virtualisation</category>
+        
+      
+      <description>Arramagong en version 3.0</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-12_arramagong_version3/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:31:13 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-12_arramagong_version3/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-12_arramagong_version3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Ça bouge dans le monde du GeoBI</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>BI</category>
+        
+      <category>ETL</category>
+        
+      <category>GeoBI</category>
+        
+      <category>article</category>
+        
+      <category>géodécisionnel</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Ça bouge dans le monde du GeoBI</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-06-22_ca_bouge_dans_le_monde_du_geobi/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:31:13 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-06-22_ca_bouge_dans_le_monde_du_geobi/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-06-22_ca_bouge_dans_le_monde_du_geobi/</guid>
+      
+    </item>
+    
+    <item>
+      <title>OpenGeo Suite en version 1.0, tests et impressions</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenGeo Suite</category>
+        
+      <category>article</category>
+        
+      <category>logiciel</category>
+        
+      <category>open source</category>
+        
+      <category>webmapping</category>
+        
+      
+      <description>OpenGeo Suite en version 1.0, tests et impressions</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-04_opengeo_suite_tests_impressions/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-04_opengeo_suite_tests_impressions/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-04_opengeo_suite_tests_impressions/</guid>
+      
+    </item>
+    
+    <item>
+      <title>MapChat, ou la Géocollaboration OpenSource</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>article</category>
+        
+      <category>géocollaboration</category>
+        
+      <category>open source</category>
+        
+      
+      <description>MapChat, ou la Géocollaboration OpenSource</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-15_mapchat_geocollaboration_opensource/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-15_mapchat_geocollaboration_opensource/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-15_mapchat_geocollaboration_opensource/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Les rencontres SIG la lettre, un événement réussi</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>SIG la lettre</category>
+        
+      <category>article</category>
+        
+      <category>colloque</category>
+        
+      <category>rencontre</category>
+        
+      
+      <description>Les rencontres SIG la lettre, un événement réussi</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-05-11_rencontres_sig_la_lettre/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-05-11_rencontres_sig_la_lettre/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-05-11_rencontres_sig_la_lettre/</guid>
+      
+    </item>
+    
+    <item>
+      <title>hypermap, future balise HTML ?</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>HTML</category>
+        
+      <category>JavaScript</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>hypermap, future balise HTML ?</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-06-11_hypermap_future_balise_html/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-06-11_hypermap_future_balise_html/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-06-11_hypermap_future_balise_html/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Modélisation d&#39;une base de données avec SQL Power Architect</title>
+      
+      
+        
+      <author>Arnaud VANDECASTEELE</author>
+        
+      
+      
+      
+        
+      <category>article</category>
+        
+      <category>database</category>
+        
+      <category>modélisation</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Modélisation d&#39;une base de données avec SQL Power Architect</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-07-15_modelisation_base_de_donnees_sql_power_architect/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-07-15_modelisation_base_de_donnees_sql_power_architect/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-07-15_modelisation_base_de_donnees_sql_power_architect/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SAGEO 2010, résumé de cette 2éme journée de colloque</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GIS</category>
+        
+      <category>SAGEO</category>
+        
+      <category>article</category>
+        
+      <category>colloque</category>
+        
+      
+      <description>SAGEO 2010, résumé de cette 2éme journée de colloque</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-19_sageo_2010_resume_jour2/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Tue, 05 Jul 2022 04:19:24 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-19_sageo_2010_resume_jour2/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-19_sageo_2010_resume_jour2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Mise à jour de MapOSMatic</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>carte</category>
+        
+      <category>data</category>
+        
+      <category>open source</category>
+        
+      <category>plan</category>
+        
+      
+      <description>Mise à jour de MapOSMatic</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-01-08_mise_a_jour_maposmatic/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-01-08_mise_a_jour_maposmatic/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-01-08_mise_a_jour_maposmatic/</guid>
+      
+    </item>
+    
+    <item>
+      <title>HeatMap</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Google Maps</category>
+        
+      <category>article</category>
+        
+      <category>heatmap</category>
+        
+      <category>nuage de points</category>
+        
+      
+      <description>HeatMap</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-01-12_heatmap/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-01-12_heatmap/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-01-12_heatmap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sortie de QGIS 1.4.0 &#39;Enceladus&#39;</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>QGIS</category>
+        
+      <category>article</category>
+        
+      <category>logiciel</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Sortie de QGIS 1.4.0 &#39;Enceladus&#39;</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-01-18_sortie_qgis_enceladus/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-01-18_sortie_qgis_enceladus/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-01-18_sortie_qgis_enceladus/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Imagimap Road</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>ExtJS</category>
+        
+      <category>GeoExt</category>
+        
+      <category>Google Maps</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>OpenStreetMap</category>
+        
+      <category>Yahoo! Maps</category>
+        
+      <category>article</category>
+        
+      
+      <description>Imagimap Road</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-01-25_imagimap_road/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-01-25_imagimap_road/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-01-25_imagimap_road/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Ski, iPhone et cartographie</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenCycleMap</category>
+        
+      <category>SIG</category>
+        
+      <category>article</category>
+        
+      <category>cartographie</category>
+        
+      <category>iPhone</category>
+        
+      <category>ski</category>
+        
+      
+      <description>Ski, iPhone et cartographie</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-02_ski_iphone_cartographie/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-02_ski_iphone_cartographie/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-02_ski_iphone_cartographie/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Fluster 2</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Google Maps</category>
+        
+      <category>article</category>
+        
+      <category>cluster</category>
+        
+      
+      <description>Fluster 2</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-05_fluster2/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-05_fluster2/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-05_fluster2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Quel développement cartographique pour des plateformes différentes ?</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Android</category>
+        
+      <category>Google Maps</category>
+        
+      <category>Internet</category>
+        
+      <category>article</category>
+        
+      <category>carte</category>
+        
+      <category>device</category>
+        
+      <category>iPhone</category>
+        
+      
+      <description>Quel développement cartographique pour des plateformes différentes ?</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-11_quel_developpement_cartographique_plateformes_differentes/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-11_quel_developpement_cartographique_plateformes_differentes/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-11_quel_developpement_cartographique_plateformes_differentes/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Comment détruire une communauté</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Comment détruire une communauté</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-02-12_comment_detruire_une_communaute/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-02-12_comment_detruire_une_communaute/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-02-12_comment_detruire_une_communaute/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Les ETL spatiaux OpenSource, à pieds joints dans l&#39;informatique GéoDécisionnelle </title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>BI</category>
+        
+      <category>ETL</category>
+        
+      <category>article</category>
+        
+      <category>géodécisionnel</category>
+        
+      <category>logiciel</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Les ETL spatiaux OpenSource, à pieds joints dans l&#39;informatique GéoDécisionnelle </description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-02_etl_spatiaux_opensource/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-02_etl_spatiaux_opensource/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-02_etl_spatiaux_opensource/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Linux sans contrainte grace à VirtualBox</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Linux</category>
+        
+      <category>VirtualBox</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Linux sans contrainte grace à VirtualBox</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-11_linux_sans_contrainte_virtualbox/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-11_linux_sans_contrainte_virtualbox/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-11_linux_sans_contrainte_virtualbox/</guid>
+      
+    </item>
+    
+    <item>
+      <title>GeoJQuery, une future alternative à GeoExt</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GeoExt</category>
+        
+      <category>GeoJQuery</category>
+        
+      <category>JavaScript</category>
+        
+      <category>article</category>
+        
+      <category>jQuery</category>
+        
+      <category>librairie</category>
+        
+      <category>webmapping</category>
+        
+      
+      <description>GeoJQuery, une future alternative à GeoExt</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-12_geojquery_alternative_a_geoext/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-12_geojquery_alternative_a_geoext/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-12_geojquery_alternative_a_geoext/</guid>
+      
+    </item>
+    
+    <item>
+      <title>YQL Geo Library, la localisation facilement</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>JavaScript</category>
+        
+      <category>article</category>
+        
+      <category>géolocalisation</category>
+        
+      
+      <description>YQL Geo Library, la localisation facilement</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-15_yql_geo_library/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-15_yql_geo_library/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-15_yql_geo_library/</guid>
+      
+    </item>
+    
+    <item>
+      <title>L&#39;API du GéoPortail passe en version 1.0</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>API</category>
+        
+      <category>JavaScript</category>
+        
+      <category>article</category>
+        
+      <category>webmapping</category>
+        
+      
+      <description>L&#39;API du GéoPortail passe en version 1.0</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-17_api_geoportail_version1/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-17_api_geoportail_version1/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-17_api_geoportail_version1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Vers un rapprochement d&#39;OSM-fr et de l&#39;OSGEO-fr ?</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OSGeo-fr</category>
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>communauté</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Vers un rapprochement d&#39;OSM-fr et de l&#39;OSGEO-fr ?</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-18_rapprochement_osmfr_osgeofr/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-18_rapprochement_osmfr_osgeofr/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-18_rapprochement_osmfr_osgeofr/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Ca bouge chez GeoExt</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GeoExt</category>
+        
+      <category>JavaScript</category>
+        
+      <category>article</category>
+        
+      <category>librairie</category>
+        
+      
+      <description>Ca bouge chez GeoExt</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-25_ca_bouge_chez_geoext/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-25_ca_bouge_chez_geoext/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-25_ca_bouge_chez_geoext/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Thèse : Géographie de la Science</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>article</category>
+        
+      <category>géoscience</category>
+        
+      <category>thèse</category>
+        
+      <category>université</category>
+        
+      
+      <description>Thèse : Géographie de la Science</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-03-31_these_geographie_science/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-03-31_these_geographie_science/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-03-31_these_geographie_science/</guid>
+      
+    </item>
+    
+    <item>
+      <title>OpenLayers en 3D</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>JavaScript</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>OpenLayers en 3D</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-06_openlayers_3d/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-06_openlayers_3d/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-06_openlayers_3d/</guid>
+      
+    </item>
+    
+    <item>
+      <title>OSGEO-fr ouverture des adhésions</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OSGeo-fr</category>
+        
+      <category>SIG</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>OSGEO-fr ouverture des adhésions</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-08_osgeofr_ouverture_adhesions/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-08_osgeofr_ouverture_adhesions/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-08_osgeofr_ouverture_adhesions/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Profil type d&#39;un utilisateur d&#39;OpenStreetMap</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>VGI</category>
+        
+      <category>article</category>
+        
+      <category>information géographique volontaire</category>
+        
+      
+      <description>Profil type d&#39;un utilisateur d&#39;OpenStreetMap</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-15_profil_type_utilisateur_openstreetmap/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-15_profil_type_utilisateur_openstreetmap/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-15_profil_type_utilisateur_openstreetmap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>GeoScript</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>API</category>
+        
+      <category>GeoScript</category>
+        
+      <category>article</category>
+        
+      
+      <description>GeoScript</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-23_geoscript/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-23_geoscript/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-23_geoscript/</guid>
+      
+    </item>
+    
+    <item>
+      <title>OpenLayers en version 2.9</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>JavaScript</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>OpenLayers en version 2.9</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-04-26_openlayers29/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-04-26_openlayers29/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-04-26_openlayers29/</guid>
+      
+    </item>
+    
+    <item>
+      <title>gvSIG Mini en version 0.2</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Android</category>
+        
+      <category>Java</category>
+        
+      <category>article</category>
+        
+      <category>gvSIG</category>
+        
+      <category>open source</category>
+        
+      
+      <description>gvSIG Mini en version 0.2</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-05-04_gvsig_mini/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-05-04_gvsig_mini/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-05-04_gvsig_mini/</guid>
+      
+    </item>
+    
+    <item>
+      <title>GeoExt passe en version 0.7</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GeoExt</category>
+        
+      <category>JavaScript</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>GeoExt passe en version 0.7</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-05-13_geoext_version07/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-05-13_geoext_version07/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-05-13_geoext_version07/</guid>
+      
+    </item>
+    
+    <item>
+      <title>XAPI OSM</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      <category>xAPI</category>
+        
+      
+      <description>XAPI OSM</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-05-28_xapi_osm/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-05-28_xapi_osm/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-05-28_xapi_osm/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Initiation à la cartographie collaborative le Samedi 26 Juin à la Maison de la Télédétection</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Initiation à la cartographie collaborative le Samedi 26 Juin à la Maison de la Télédétection</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-06-02_initiation_cartographie_collaborative/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-06-02_initiation_cartographie_collaborative/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-06-02_initiation_cartographie_collaborative/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Créez une carte papier avec des données OpenStreetMap</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      
+      <description>Créez une carte papier avec des données OpenStreetMap</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-06-07_carte_papier_avec_des_donnees_openstreetmap/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-06-07_carte_papier_avec_des_donnees_openstreetmap/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-06-07_carte_papier_avec_des_donnees_openstreetmap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Offre de thèse : Contribution d’un système géo-décisionnel à la sauvegarde maritime</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>SOLAP</category>
+        
+      <category>article</category>
+        
+      <category>géodécisionnel</category>
+        
+      <category>thèse</category>
+        
+      
+      <description>Offre de thèse : Contribution d’un système géo-décisionnel à la sauvegarde maritime</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-06-24_these_construction_systeme_geodecisionnel/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-06-24_these_construction_systeme_geodecisionnel/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-06-24_these_construction_systeme_geodecisionnel/</guid>
+      
+    </item>
+    
+    <item>
+      <title>osmtracker-android où comment disposez d&#39;OpenStreetMap sur Android</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Android</category>
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>osmtracker-android où comment disposez d&#39;OpenStreetMap sur Android</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-07-06_osmtracker_android_openstreetmap/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-07-06_osmtracker_android_openstreetmap/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-07-06_osmtracker_android_openstreetmap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>iBiclou : OpenData, webmapping et vélo</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>API</category>
+        
+      <category>Google Maps</category>
+        
+      <category>article</category>
+        
+      <category>iBiclou</category>
+        
+      <category>open data</category>
+        
+      <category>vélo</category>
+        
+      
+      <description>iBiclou : OpenData, webmapping et vélo</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-07-21_ibiclou_opendata_webmapping_velo/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-07-21_ibiclou_opendata_webmapping_velo/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-07-21_ibiclou_opendata_webmapping_velo/</guid>
+      
+    </item>
+    
+    <item>
+      <title>CartONG organise en Septembre son second forum GeONG</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>VGI</category>
+        
+      <category>article</category>
+        
+      <category>colloque</category>
+        
+      
+      <description>CartONG organise en Septembre son second forum GeONG</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-08-18_cartong_forum_geong/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-08-18_cartong_forum_geong/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-08-18_cartong_forum_geong/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Interroger GeoServer en Python grâce à gsconfig</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GeoServer</category>
+        
+      <category>Python</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      <category>serveur cartographique</category>
+        
+      
+      <description>Interroger GeoServer en Python grâce à gsconfig</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-08-25_interroger_geoserver_en_python_grace_a_gconfig/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-08-25_interroger_geoserver_en_python_grace_a_gconfig/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-08-25_interroger_geoserver_en_python_grace_a_gconfig/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Créer et diffuser des services WMS avec QGIS</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OGC</category>
+        
+      <category>QGIS</category>
+        
+      <category>WMS</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      <category>serveur géographique</category>
+        
+      <category>tutoriel</category>
+        
+      
+      <description>Créer et diffuser des services WMS avec QGIS</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-09-03_creer_diffuser_services_wms_avec_qgis/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-09-03_creer_diffuser_services_wms_avec_qgis/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-09-03_creer_diffuser_services_wms_avec_qgis/</guid>
+      
+      <enclosure url="https://cdn.geotribu.fr/img/articles-blog-rdp/logiciels/qgis/qgis_net.png" type="image/png" length="209754" />
+      
+    </item>
+    
+    <item>
+      <title>Créer ses propres plugins pour QGIS</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>PyQGIS</category>
+        
+      <category>QGIS</category>
+        
+      <category>article</category>
+        
+      <category>plugin QGIS</category>
+        
+      <category>plugin builder</category>
+        
+      
+      <description>Créer ses propres plugins pour QGIS</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-09-23_creer_ses_propres_plugin_qgis/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-09-23_creer_ses_propres_plugin_qgis/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-09-23_creer_ses_propres_plugin_qgis/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Allégez votre librairie OpenLayers avec openlayerer</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>JavaScript</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>article</category>
+        
+      <category>open source</category>
+        
+      
+      <description>Allégez votre librairie OpenLayers avec openlayerer</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-09-30_allegez_votre_librairie_openlayers_avec_openlayerer/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-09-30_allegez_votre_librairie_openlayers_avec_openlayerer/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-09-30_allegez_votre_librairie_openlayers_avec_openlayerer/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Conférence Qualité des données géospatiales et géodécisionnel</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GeoBI</category>
+        
+      <category>SOLAP</category>
+        
+      <category>article</category>
+        
+      <category>conférence</category>
+        
+      <category>géodécisionnel</category>
+        
+      
+      <description>Conférence Qualité des données géospatiales et géodécisionnel</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-10-18_conference_qualite_des_donnees/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-10-18_conference_qualite_des_donnees/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-10-18_conference_qualite_des_donnees/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Le SAGEO 2010, c&#39;est dans une semaine à Toulouse</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Géomatique</category>
+        
+      <category>SAGEO</category>
+        
+      <category>SIG</category>
+        
+      <category>article</category>
+        
+      <category>conférence</category>
+        
+      
+      <description>Le SAGEO 2010, c&#39;est dans une semaine à Toulouse</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-10_sageo_2010_dans_une_semaine/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-10_sageo_2010_dans_une_semaine/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-10_sageo_2010_dans_une_semaine/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SAGEO 2010, résumé de la première journée de colloque</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GIS</category>
+        
+      <category>SAGEO</category>
+        
+      <category>article</category>
+        
+      <category>colloque</category>
+        
+      <category>conférence</category>
+        
+      <category>géomatique</category>
+        
+      <category>recherche</category>
+        
+      <category>événement</category>
+        
+      
+      <description>SAGEO 2010, résumé de la première journée de colloque</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-18_sageo_2010_resume_jour1/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-18_sageo_2010_resume_jour1/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-18_sageo_2010_resume_jour1/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SAGEO 2010, résumé de cette 3éme journée de colloque</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>GIS</category>
+        
+      <category>SAGEO</category>
+        
+      <category>article</category>
+        
+      <category>colloque</category>
+        
+      
+      <description>SAGEO 2010, résumé de cette 3éme journée de colloque</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-20_sageo_2010_resume_jour3/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-20_sageo_2010_resume_jour3/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-20_sageo_2010_resume_jour3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Hillshading or not ...</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Google Maps</category>
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>hillshading</category>
+        
+      <category>ombrage</category>
+        
+      
+      <description>Hillshading or not ...</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-24_hillshading_or_not/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-24_hillshading_or_not/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-24_hillshading_or_not/</guid>
+      
+    </item>
+    
+    <item>
+      <title>La Géomatique Open Source : de la cartographie à la néogéographie</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>OpenStreetMap</category>
+        
+      <category>article</category>
+        
+      <category>conférence</category>
+        
+      <category>géomatique</category>
+        
+      <category>néogéographie</category>
+        
+      <category>open source</category>
+        
+      
+      <description>La Géomatique Open Source : de la cartographie à la néogéographie</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-11-29_these_geomatique_opensource_cartographie_neogeographie/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-11-29_these_geomatique_opensource_cartographie_neogeographie/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-11-29_these_geomatique_opensource_cartographie_neogeographie/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Imagimap Baselayers v2</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Bing Maps</category>
+        
+      <category>ExtJS</category>
+        
+      <category>GeoExt</category>
+        
+      <category>Geotribu</category>
+        
+      <category>Google Maps</category>
+        
+      <category>MapQuest</category>
+        
+      <category>OpenLayers</category>
+        
+      <category>OpenStreetMap</category>
+        
+      <category>Yahoo! Maps</category>
+        
+      <category>article</category>
+        
+      
+      <description>Imagimap Baselayers v2</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-12-13_imagemap_baselayers_v2/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-12-13_imagemap_baselayers_v2/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-12-13_imagemap_baselayers_v2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>iOS 4.2 - carte et accéléromètre</title>
+      
+      
+        
+      <author>Geotribu</author>
+        
+      
+      
+      
+        
+      <category>Google Maps</category>
+        
+      <category>Sencha</category>
+        
+      <category>article</category>
+        
+      <category>iOS</category>
+        
+      
+      <description>iOS 4.2 - carte et accéléromètre</description>
+      <link>https://static.geotribu.fr/articles/2010/2010-12-20_ios42_carte_accelerometre/?utm_source=rss-feed&amp;utm_medium=RSS&amp;utm_campaign=feed-syndication</link>
+      <pubDate>Mon, 04 Jul 2022 20:06:40 -0000</pubDate>
+      <source url="https://static.geotribu.fr/feed_rss_updated.xml">Geotribu</source>
+      <comments>https://static.geotribu.fr/articles/2010/2010-12-20_ios42_carte_accelerometre/#__comments</comments>
+      <guid isPermaLink="true">https://static.geotribu.fr/articles/2010/2010-12-20_ios42_carte_accelerometre/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>

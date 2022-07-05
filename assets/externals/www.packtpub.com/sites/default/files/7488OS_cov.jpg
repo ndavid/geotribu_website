@@ -1,0 +1,1847 @@
+ <!doctype html>
+<html lang="en">
+<head>
+<script>
+    var BASE_URL = 'https://www.packtpub.com/';
+    var require = {
+        "baseUrl": "https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB"
+    };
+</script>
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-0f4d86b78cc0c8047b9",applicationID:"475968873"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="title" content="404 Not Found" />
+<meta name="description" content="Page description" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1, shrink-to-fit=no" />
+<meta name="" content="charset=utf-8" />
+<title>404 Not Found</title>
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/mage/calendar.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/css/styles.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/css/custom.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/css/customsearch.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Amasty_Base/vendor/slick/amslick.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Gdpr/css/cookie.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_GeoIP/css/geoip-banner.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_LandingPage/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_LandingPage/css/packtlandingpage.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Ves/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Ves/css/animate.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Ves/css/bootstrap-tiny.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Ves/css/styles-m.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Amasty_Mostviewed/css/amrelated.min.css" />
+<link rel="stylesheet" type="text/css" media="print" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/css/print.min.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Ves/css/styles-l.min.css" />
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/requirejs/require.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/mage/requirejs/mixins.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/requirejs-config.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/mage/polyfill.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_ReviewsFeefo/js/feefo-reviews.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/js/mobile-search.js"></script>
+<script type="text/javascript" src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/Packt_Gdpr/js/cookie.js"></script>
+<script type="text/javascript" src="https://storage.googleapis.com/prshim/v1/payment-shim.js"></script>
+<link rel="icon" type="image/x-icon" href="https://www.packtpub.com/media/favicon/stores/1/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.packtpub.com/media/favicon/stores/1/favicon.ico" />
+<meta name="google-site-verification" content="CGEyu7dKgqkqBrxdainq9bY0WowOCMOdZ1nKVzzvYJg" />
+
+
+<meta name="facebook-domain-verification" content="dwgy5xav7vdzgpmijkbqfvfgyxs8fc" /> 
+
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KHLZ7JF');</script>
+
+
+<script type="text/javascript">
+        (function (url) {
+            /*Tracking Bootstrap
+            Set Up DataLayer objects/properties here*/
+            if(!window.DataLayer){
+                window.DataLayer = {};
+            }
+            if(!DataLayer.events){
+                DataLayer.events = {};
+            }
+
+            DataLayer.events.SPIVersion = DataLayer.events.SPIVersion || "3.4";
+
+            DataLayer.events.SiteSection = "1";
+
+            var loc, ct = document.createElement("script");
+            ct.type = "text/javascript";
+            ct.async = true;
+            ct.src = url;
+            loc = document.getElementsByTagName("script")[0];
+            loc.parentNode.insertBefore(ct, loc);
+        }(document.location.protocol + '//tag.rmp.rakuten.com/120495.ct.js'));
+        /*Do Not Edit Beneath This Line*/
+        function getRMParameterByName(ranParam) {
+            ranParam = ranParam.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+            var regex = new RegExp("[\?&]" + ranParam + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        function formatDate(ranDate) {
+            var dd = ranDate.getDate()
+            if (dd < 10) { dd = "0" + dd; } else { dd = dd.toString(); }
+            var mm = ranDate.getMonth() + 1
+            if (mm < 10) { mm = "0" + mm; } else { mm = mm.toString(); }
+            var yyyy = ranDate.getFullYear()
+            if (yyyy < 10) { yyyy = "0" + yyyy; } else { yyyy = yyyy.toString(); }
+            var hr = ranDate.getHours()
+            if (hr < 10) { hr = "0" + hr; } else { hr = hr.toString(); }
+            var mn = ranDate.getMinutes()
+            if (mn < 10) { mn = "0" + mn; } else { mn = mn.toString(); }
+            return yyyy + mm + dd + "_" + hr + mn;
+        }
+
+        var __createRMCookie = function(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = name + "=" + value + expires + "; path=/; domain=packtpub.com";
+        }
+
+        var ranMID = getRMParameterByName("ranMID");
+        var ranSiteID = getRMParameterByName("ranSiteID");
+
+        if (ranMID != "") {
+            __createRMCookie("ranMID", ranMID, 30);
+        }
+
+        if (ranSiteID != "") {
+            __createRMCookie("ranSiteID", ranSiteID, 30);
+            var ranLandDateTime = formatDate(new Date());
+            __createRMCookie("ranLandDateTime", ranLandDateTime, 30);
+        }
+    </script>
+
+<link rel="canonical" href="https://www.packtpub.com/cms/noroute/index/" src_type="url" /> </head>
+<body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/images/loader-2.gif"}}' class="cms-no-route cms-noroute-index page-layout-2columns-right">
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/widget\/show-on-hover":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/widget\/show-on-hover":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".packtpub.com",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+<noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });
+</script>
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = false;
+</script>
+<script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.packtpub.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.packtpub.com\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHLZ7JF"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="page-wrapper"><header class="page-header"><div id="pk--locale-switcher"><div id="geoip-modal-content-wrapper" data-bind="scope:'geoip-store-select'">
+<!-- ko template: getTemplate() --><!-- /ko -->
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+               "components": {
+                    "geoip-store-select": {
+                        "component": "Packt_GeoIP/js/geoip_banner",
+                        "template" : "Packt_GeoIP/ko/geoip_banner",
+                        "dataUrl"  : "https://www.packtpub.com/",
+                        "buttonLabel" : "Continue >",
+                        "contentText": "Choose another country or region to see content specific to your location"
+                    }
+                }
+            }
+        }
+    }
+    </script>
+</div>
+</div><div class="panel wrapper"><div class="panel header"><span class="hidden-xs hidden-sm>">
+<a class="logo hidden-xs hidden-sm" href="https://www.packtpub.com/" title="Packt Logo">
+<img src="https://www.packtpub.com/media/logo/stores/1/logo.png" title="Packt Logo" alt="Packt Logo" width="135" height="64" class="hidden-xs hidden-sm" />
+</a>
+</span>
+<div class="block block-search">
+<div class="block block-title"><strong>Search</strong></div>
+<div class="block block-content">
+<form class="form minisearch" id="search_mini_form" action="https://subscription.packtpub.com/search" method="get">
+<div class="field search">
+<label class="label" for="search" data-role="minisearch-label">
+<span>Search</span>
+</label>
+<div class="control">
+<input id="search" type="text" name="query" value="" placeholder="Search titles ..." class="input-text" maxlength="" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" aria-expanded="false" />
+</div>
+</div>
+<div class="actions">
+<button type="submit" title="" class="action search" aria-label="Search">
+<span></span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<a class="action skip contentarea" href="#contentarea">
+<span>
+Skip to Content </span>
+</a>
+<ul class="header links"></ul><style>
+    .menurow {
+	    width:1200px;
+     }
+
+    .navbar .dropdown-toggle,
+    .navbar .dropdown-menu a {
+        cursor: pointer;
+    }
+
+    .navbar .dropdown-item.active,
+    .navbar .dropdown-item:active {
+        color: inherit;
+        text-decoration: none;
+        background-color: inherit;
+        background-color: #3c3c3b;
+        font-size: 14px;
+    }
+
+    .navbar .dropdown-item:focus,
+    .navbar .dropdown-item:hover {
+        color: #16181b;
+        text-decoration: none;
+        background-color: #3c3c3b;
+        font-size: 14px;
+    }
+
+    .subscribe_cta {
+        margin: 6px 0 0 20px;
+    }
+
+
+    .subscribe_cta:hover {
+        background-color : #ec6611;
+        border-color : #ec6611;
+        color : #ffffff;
+        text-decoration : underline;
+    }
+
+    .subscribe_cta:focus {
+        background-color : #ec6611;
+        border-color : #ec6611;
+        color : #ffffff;
+        text-decoration : underline;
+    }
+
+    #mobile {
+        position: absolute;
+    }
+
+    #navbarContent {
+        margin-left: -25px;
+        background-color: #3c3c3b;
+        width: 350px;
+        padding: 10px;
+        overflow-y : scroll;
+    }
+
+    .authlink {
+        width: 50%;
+        text-align: center;
+        margin-top:25px;
+    }
+
+    .sub_ctalink {
+        width: 50%;
+        margin-top: 4px;
+    }
+
+    .navbar a:link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .navbar a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        color: #ec6611;
+        text-decoration: none;
+    }
+
+    .navbar a:active {
+        color: #ec6611;
+        text-decoration: none;
+    }
+
+    .dropdown-menu {
+        border: none;
+        background-color: #3c3c3b;
+    }
+
+    .dropdown-toggle {
+        color: white;
+        font-size : 14px;
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+    }
+
+    hr {
+        background-color: #ffffff;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .navbar{
+            padding : 1px 0 0 0;
+        }
+
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            width: max-content;
+            background-color: #3c3c3b;
+        }
+
+        .navbar .dropdown-toggle {
+            color: white;
+            padding-right: 10px;
+            text-decoration: none;
+        }
+
+        #mobile {
+            display: none;
+        }
+
+        .class123 {
+            width: 50% !important;
+        }
+
+        .navbar .row {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            max-width: 1200px;
+        }
+
+        .dropdown-menu {
+            left: 25%;
+            margin-top: 25px;
+            transform: translate(-63%, 0);
+        }
+
+        .dropdown-items {
+            margin-top: 0 !important;
+            margin: auto;
+	        width:380px;
+            float:left;
+        }
+
+        .cat-title {
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .categorys {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .category {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .navbar a:link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #ec6611;
+            text-decoration: none;
+        }
+
+        .navbar a:active {
+            color: #ec6611;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width: 991px) and (min-width: 767px) {
+        .navbar .dropdown-toggle:not(.nav-link)::after {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: .5em;
+            vertical-align: 0;
+            border-bottom: .3em solid transparent;
+            border-top: .3em solid transparent;
+            border-left: .3em solid;
+        }
+
+        #desktop {
+            display: none;
+        }
+
+        .navbar a:link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #ec6611;
+            text-decoration: none;
+        }
+
+        .navbar a:active {
+            color: #ec6611;
+        }
+
+        header.page-header .logo {
+            position:absolute;
+            left:10%;
+        }
+
+        .block-search {
+            position:absolute;
+            right:50%;
+        }
+
+    }
+</style>
+<nav class="navbar navbar-expand-lg" id="desktop">
+<div id="navbarContent-desk" class="collapse navbar-collapse">
+<div class=" navbar-nav mx-auto">
+<div class=" dropdown dropdown-desktop">
+<a href="https://www.packtpub.com/#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Browse All</a>
+<div class="dropdown-menu">
+<div class="menurow row">
+<div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="text" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;">
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Browse Categories </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Web%20Development">
+Web Development </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Programming">
+Programming </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Data">
+Data </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Cloud%20%26%20Networking">
+Cloud &amp; Networking </a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Mobile">
+Mobile </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Security">
+Security </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=IoT%20%26%20Hardware">
+IOT &amp; Hardware </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Business%20%26%20Other">
+Business </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Browse Categories </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Web%20Development"> Web Development </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Programming"> Programming </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Data"> Data </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Cloud%20%26%20Networking"> Cloud &amp; Networking </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Mobile"> Mobile </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Security"> Security </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=IoT%20%26%20Hardware"> IOT &amp; Hardware </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Business%20%26%20Other"> Business </a>
+</li>
+</ul>
+</li>
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Browse By </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+All Products </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?products=Book">
+All Books </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?products=Video">
+All Videos </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+Best Sellers </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+Latest Releases </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Browse By </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> All Products </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?products=Book"> All Books </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?products=Video"> All Videos </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> Best Sellers </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> Latest Releases </a>
+</li>
+</ul>
+</li>
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Trending </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=python">
+Python </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=c%23">
+C# </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=c%2B%2B">
+C++ </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=javascript">
+ Javascript </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=java">
+Java </a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=AWS">
+AWS </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=React">
+React </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=Azure">
+Azure </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=Angular">
+Angular </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=php">
+PHP </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Trending </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=python"> Python </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=c%23"> C# </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=c%2B%2B"> C++ </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=javascript"> Javascript </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=java"> Java </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=AWS"> AWS </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=React"> React </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=Azure"> Azure </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=Angular"> Angular </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=php"> PHP </a>
+</li>
+</ul>
+</li>
+</div></div></div>  </div>
+</div>
+</div>
+<div class=" dropdown dropdown-desktop">
+<a href="https://www.packtpub.com/free-learning"> Free Learning</a>
+</div>
+</div>
+</div>
+</nav>
+<nav class="navbar navbar-expand-lg" id="mobile">
+<button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="buttonnav navbar-toggler">
+<span class="navbar-toggler-icon">
+<img src="https://img.icons8.com/ios-filled/50/ffffff/menu.png" />
+</span>
+</button>
+<div id="navbarContent" class="collapse navbar-collapse">
+<div class="hidden-lg hidden-md row navrow" data-label="or">
+<div class="authlink">
+<a class="signed-out" href="https://www.packtpub.com/customer/account/login/referer/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw%2C%2C/">
+User Sign In </a>
+</div>
+<div class=" sub_ctalink">
+<a href="https://subscribe.packtpub.com/" target="_blank" class="subscribe_cta_link">
+<button class="subscribe_cta">
+Subscribe </button>
+</a>
+<a href="https://subscription.packtpub.com/login" target="_blank" class="subscribe_cta_link">
+<button class="subscribe_cta">
+Subscriber Sign In </button>
+</a>
+</div>
+</div>
+<hr>
+<ul class="navbar-nav mr-auto">
+<li class="nav-item dropdown">
+<a href="https://www.packtpub.com/#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Browse All</a>
+<ul class="dropdown-menu">
+<div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="text" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;">
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Browse Categories </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Web%20Development">
+Web Development </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Programming">
+Programming </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Data">
+Data </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Cloud%20%26%20Networking">
+Cloud &amp; Networking </a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Mobile">
+Mobile </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Security">
+Security </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=IoT%20%26%20Hardware">
+IOT &amp; Hardware </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?category=Business%20%26%20Other">
+Business </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Browse Categories </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Web%20Development"> Web Development </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Programming"> Programming </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Data"> Data </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Cloud%20%26%20Networking"> Cloud &amp; Networking </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Mobile"> Mobile </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Security"> Security </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=IoT%20%26%20Hardware"> IOT &amp; Hardware </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?category=Business%20%26%20Other"> Business </a>
+</li>
+</ul>
+</li>
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Browse By </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+All Products </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?products=Book">
+All Books  </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?products=Video">
+All Videos </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+Best Sellers </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search/">
+Latest Releases </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Browse By </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> All Products </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?products=Book"> All Books </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?products=Video"> All Videos </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> Best Sellers </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search/"> Latest Releases </a>
+</li>
+</ul>
+</li>
+<div class="dropdown-items col-md-4 row hidden-xs hidden-sm">
+<div class="col-md-12 cat-title">
+Trending </div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=python">
+Python </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=c%23">
+C# </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=c%2B%2B">
+C++ </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=javascript">
+Javascript </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=java">
+Java </a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=AWS">
+AWS </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=React">
+React </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=Azure">
+Azure </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?tool=Angular">
+Angular </a>
+</div>
+<div class="categorys"> <a class="category" href="https://subscription.packtpub.com/search?language=php">
+PHP </a>
+</div>
+</div>
+</div>
+<li class="dropdown-item dropdown  hidden-lg hidden-md">
+<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Trending </a>
+<ul class="dropdown-menu">
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=python"> Python </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=c%23"> C# </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=c%2B%2B"> C++ </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=javascript"> Javascript </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=java"> Java </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=AWS"> AWS </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=React"> React </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=Azure"> Azure </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?tool=Angular"> Angular </a>
+</li>
+<li class="dropdown-item">
+<a href="https://subscription.packtpub.com/search?language=php"> PHP </a>
+</li>
+</ul>
+</li>
+</div></div></div> </ul>
+<hr>
+<a href="https://www.packtpub.com/free-learning"> Free Learning</a>
+<ul class="dropdown-menu">
+</ul>
+<hr>
+</li>
+</ul>
+</div>
+</nav>
+<script>
+        require(
+            ['jquery'], function ($) {
+                $(function () {
+                    $(document).ready(function () {
+
+                        $('.navbar .dropdown-item.dropdown').on('click', function (e) {
+                            var $el = $(this).children('.dropdown-toggle');
+                            if ($el.length > 0 && $(e.target).hasClass('dropdown-toggle')) {
+                                var $parent = $el.offsetParent(".dropdown-menu");
+                                $(this).parent("li").toggleClass('open');
+
+                                if (!$parent.parent().hasClass('navbar-nav')) {
+                                    if ($parent.hasClass('show')) {
+                                        $parent.removeClass('show');
+                                        $el.next().removeClass('show');
+                                    } else {
+                                        $parent.parent().find('.show').removeClass('show');
+                                        $parent.addClass('show');
+                                        $el.next().addClass('show');
+                                    }
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                }
+                                return;
+                            }
+                        });
+
+                        $('.navbar .dropdown').on('hidden.bs.dropdown', function () {
+                            $(this).find('li.dropdown').removeClass('show open');
+                            $(this).find('ul.dropdown-menu').removeClass('show open');
+                        });
+
+                        $('.navbar .dropdown-items.dropdown').on('click', function (e) {
+                            var $el = $(this).children('.dropdown-toggle');
+                            var $parent = $el.offsetParent(".dropdown-menu");
+
+                            if (!$parent.parent().hasClass('navbar-nav')) {
+                                if ($parent.hasClass('show')) {
+                                    $parent.removeClass('show');
+                                    $el.next().removeClass('show');
+                                } else {
+                                    $parent.parent().find('.show').removeClass('show');
+                                    $parent.addClass('show');
+                                    $el.next().addClass('show');
+                                }
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                            return;
+                        });
+
+                        $(document).click(function (event) {
+                            var clickover = $(event.target);
+                            var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse show");
+                            if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+                                $("button.navbar-toggler").click();
+                            }
+                        });
+                    });
+                });
+            });
+    </script>
+<span class="hidden-lg hidden-md>">
+<a class="logo " href="https://www.packtpub.com/" title="Packt Logo">
+<img src="https://www.packtpub.com/media/logo/stores/1/logo.png" title="Packt Logo" alt="Packt Logo" width="135" class="hidden-lg hidden-md" />
+</a>
+</span>
+<div class="mobile-search-icon hidden-lg hidden-md">
+<button class="mobile-magnifying-glass">
+<i aria-hidden="true" class="fa fa-search searchmobile">
+</i>
+<i aria-hidden="true" class="fa fa-close closemobile">
+</i>
+</button>
+</div>
+<div class="authorization-link" data-label="or">
+<a class="signed-out" href="https://www.packtpub.com/customer/account/login/referer/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw%2C%2C/">
+User Sign In </a>
+</div>
+<div data-block="minicart" class="minicart-wrapper">
+<a class="action showcart" href="https://www.packtpub.com/checkout/cart/" data-bind="scope: 'minicart_content'">
+<span class="text">My Cart</span>
+<span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() }, blockLoader: isLoading">
+<span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+<span class="counter-label">
+<!-- ko if: getCartParam('summary_count') -->
+<!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+<!-- ko i18n: 'items' --><!-- /ko -->
+<!-- /ko -->
+</span>
+</span>
+</a>
+<div class="block block-minicart" data-role="dropdownDialog" data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+<div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+</div>
+<script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.packtpub.com\/checkout\/cart\/","checkoutUrl":"https:\/\/www.packtpub.com\/checkout\/","updateItemQtyUrl":"https:\/\/www.packtpub.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.packtpub.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.packtpub.com\/","minicartMaxItemsVisible":2,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","customerLoginUrl":"https:\/\/www.packtpub.com\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cucGFja3RwdWIuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw%2C%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.packtpub.com\/captcha\/refresh\/","isRequired":false,"timestamp":1656996133}}};
+    </script>
+<script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":1,"display_cart_subtotal_excl_tax":0,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.packtpub.com\u002Fstatic\u002Fversion1650969320\u002Ffrontend\u002FPackt\u002Fdefault\u002Fen_GB\u002Fimages\u002Floader\u002D1.gif"
+        }
+    }
+    </script>
+</div>
+<a href="https://subscribe.packtpub.com/" target="_blank" class="subscribe_cta_link hidden-xs hidden-sm">
+<button class="subscribe_cta">
+Subscribe </button>
+</a>
+<a href="https://subscription.packtpub.com/login" target="_blank" class="subscribe_cta_link hidden-xs hidden-sm">
+<button class="subscribe_cta">
+Subscriber Sign In </button>
+</a>
+</div></div><div class="header content">
+<script type="text/javascript">
+    window.ChromepayButtonName = '';
+    window.ChromepayEnabled = '0';
+    window.ChromePaymentMode = 'direct';</script>
+<script>
+    //Global variables
+    var carrierCode;
+    var token = 'Bearer irbcg96yb8vt2vv24wqqtwahe1hfgnqh';
+    var cardType;
+    var totalAmount;
+    var baseUrl = 'https://www.packtpub.com/';
+    var baseCurrency = '';
+    var orderCode;
+    var reqShipping = '';
+    function initPaymentRequest() {
+
+    const networks = [
+            "amex", "mastercard", "visa"
+    ];
+    const types = ['credit'];
+    const supportedInstruments = [{
+    supportedMethods: 'basic-card',
+            data: {
+            supportedNetworks: networks,
+                    supportedTypes: types
+            }
+    }];
+    var isCustomerLoggedIn = window.checkoutConfig.isCustomerLoggedIn;
+    var guestMaskedQuoteId = window.checkoutConfig.quoteData.entity_id;
+    var isDownlodable = false;
+    const details = {
+    displayItems: [
+
+
+    {
+    label: 'Subtotal',
+            amount: { currency: '', value: '0' }
+    },
+    {
+    label: 'Shipping',
+            amount: {currency: '', value: ''},
+            pending: true,
+    },
+    {
+    label: 'Tax',
+            amount: {currency: '', value: '0'},
+            pending: true,
+    },
+    ],
+            total: {
+            label: 'Total',
+                    amount: { currency: '', value: '' }
+            },
+    };  
+    var options = {
+    requestShipping: reqShipping,
+            requestPayerEmail: true,
+            requestPayerPhone: true,
+            requestPayerName: true
+    }; 
+    /**
+     * Updates the shipping price and the total based on the shipping address.
+     *
+     * @private
+     * @param {PaymentDetails} details The line items and shipping options.
+     * @param {PaymentAddress} shippingAddress User's preferred shipping address to
+     * use for shipping price calculations.
+     * @param {function} callback The callback to invoke with updated line items and
+     * shipping options.
+     */
+
+    //ajax req for available shipping method
+
+    function updateDetails(details, shippingOption, shippingAddress, resolve, reject) {
+        var k;
+        var selectedOptIndex;
+        for (k = 0; k < details.shippingOptions.length; k++) {
+        if (details.shippingOptions[k].id == shippingOption) {
+        selectedOptIndex = k;
+        break;
+        }
+        }
+
+        carrierCode = details.shippingOptions[selectedOptIndex].carrier;
+        var newShippingAmount = Number(details.shippingOptions[selectedOptIndex].amount.value);
+        var newTotal = Number(0) + newShippingAmount;
+        selectedShippingOption = details.shippingOptions[selectedOptIndex];
+        var productCount = Number(0);
+        var shippingPosition = Number(productCount + 1);
+        details.total.amount.value = newTotal;
+        totalAmount = newTotal;
+        details.displayItems[shippingPosition].amount.value = newShippingAmount;
+        selectedShippingOption.selected = true;
+        var totals = updateTotals(carrierCode, shippingAddress);
+        if(totals){            
+            var taxPosition = Number(productCount + 2);
+            details.displayItems[taxPosition].amount.value = totals.base_tax_amount;
+            // Update total after tax
+            details.total.amount.value = totals.base_grand_total;
+        }
+        resolve(details);
+    }  // end of updateDetails fn
+    
+    function updateTotals(carrierCode, shippingAddress){
+        var countryCode = shippingAddress.country;
+        var req = {
+            'addressInformation' : {
+                'address' : {
+                    'countryId' : countryCode,
+                    'region':"",
+                    'postcode':null
+                },
+                'shipping_method_code' : carrierCode,
+                'shipping_carrier_code' : carrierCode
+            }
+        }
+        var jsonReq = JSON.stringify(req);
+        var totalsUrl;
+        if (isCustomerLoggedIn) { //Api for logged inb customer
+            totalsUrl = baseUrl + 'rest/default/V1/carts/mine/totals-information';
+        } else { // Api for guest customer
+            totalsUrl = baseUrl + 'rest/default/V1/guest-carts/' + guestMaskedQuoteId + '/totals-information';
+        }
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", totalsUrl, false);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        if (isCustomerLoggedIn) {
+        xhttp.setRequestHeader("Authorization", token);
+        }
+        xhttp.send(jsonReq);
+        var totals = JSON.parse(xhttp.responseText);
+        return totals;
+    } //--------------end of updateTotals fn -----------
+    
+
+    function updateDetailsAddress(details, request, resolve, reject) {
+        var countryCode = request.country;
+        var req = {
+        'address' : {
+        'country_id' : ''
+        }
+        };
+        req.address.country_id = request.country;
+        var jsonReq = JSON.stringify(req);
+        var apiUrl;
+        if (isCustomerLoggedIn) { //Api for logged inb customer
+            apiUrl = baseUrl + 'rest/default/V1/carts/mine/estimate-shipping-methods';
+        } else { // Api for guest customer
+            apiUrl = baseUrl + 'rest/default/V1/guest-carts/' + guestMaskedQuoteId + '/estimate-shipping-methods';
+        }
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", apiUrl, false);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        if (isCustomerLoggedIn) {
+        xhttp.setRequestHeader("Authorization", token);
+        }
+        xhttp.send(jsonReq);
+        var shippindMethods = JSON.parse(xhttp.responseText);
+        var shippingOptionsNew = [];
+        for (i = 0; i < shippindMethods.length; i++) {
+        shippingOptionsNew.push({
+        id: shippindMethods[i].method_code,
+                label: shippindMethods[i].carrier_title,
+                carrier: shippindMethods[i].carrier_code,
+                amount: {currency: '', value: shippindMethods[i].amount},
+                selected: false,
+        });
+        }
+        details.shippingOptions = shippingOptionsNew;
+        resolve(details);
+    } //--------------- end of updateDetailsAddress -------------
+
+
+    // Initialization
+    var request = new PaymentRequest(supportedInstruments, details, options);
+    request.addEventListener('shippingaddresschange', function(evt) {
+        evt.updateWith(new Promise(function(resolve, reject) {
+            updateDetailsAddress(details, request.shippingAddress, resolve, reject);
+        }));
+    });
+    //Update shipping rate by selected shipping method
+    request.addEventListener('shippingoptionchange', function(evt) {
+        evt.updateWith(new Promise(function(resolve, reject) {
+            updateDetails(details, request.shippingOption, request.shippingAddress, resolve, reject);
+        }));
+    });
+    return request;
+    } // ------------- End of initPaymentRequest fn ---------------
+
+    /**
+     * Invokes PaymentRequest for credit cards.
+     *
+     * @param {PaymentRequest} request The PaymentRequest object.
+     */
+    function onBuyClicked(request) {
+
+    var isCustomerLoggedIn = window.checkoutConfig.isCustomerLoggedIn;
+    var isDownlodable = false;
+    if (isCustomerLoggedIn == false && isDownlodable == true) {
+        var error = 'Please log in to continue';
+        alert(error);
+        throw(error);
+    }
+
+    request.show().then(function(instrumentResponse) {
+        orderCode = createOrder(instrumentResponse);
+        //console.log('order created');
+        //console.log(orderCode);
+        //console.log('REDIRECTING');
+        if (instrumentResponse && orderCode){
+           // window.location.href = baseUrl + 'checkout/onepage/success';
+            window.location.href = baseUrl + 'worldpay/threedsecure/auth';
+        }
+    }).catch(function(err) {
+        throw(err);
+    });
+    } // ----------------- End of onBuyClicked fn --------------------
+
+    /**
+     * Simulates processing the payment data on the server.
+     *
+     * @param {instrumentResponse} instrumentResponse The payment information to
+     * process.
+     */
+    function createOrder(instrumentResponse) {
+    var guestMaskedQuoteId = window.checkoutConfig.quoteData.entity_id;
+    var apiUrl;
+    var orderResponse;
+    if (isCustomerLoggedIn) { //Api for logged in customer
+        apiUrl = baseUrl + 'rest/default/V1/carts/mine/shipping-information';
+    } else { // Api for guest customer
+        apiUrl = baseUrl + 'rest/default/V1/guest-carts/' + guestMaskedQuoteId + '/shipping-information';
+    }
+    
+    
+    var fullName = instrumentResponse.details.billingAddress.recipient;
+    var strArray = fullName.split(" ");
+    var firstName = strArray[0];
+    var lastName;
+    //firstname will be used as lastname incase user dont have lastname (Magento validation)
+    if (strArray[1]) {
+    lastName = strArray[1];
+    } else {
+    lastName = firstName;
+    }
+
+    //Add shipping information to the cart
+    // region id will be used as 0 as default (Magento validation)
+    var customerDetails = {  "addressInformation": {
+    "shipping_address": {
+    "region": "",
+            "region_id": 0,
+            "region_code": "",
+            "country_id": "",
+            "street": [
+                    ""
+            ],
+            "postcode": "",
+            "city": "",
+            "firstname": "",
+            "lastname": "",
+            "email": "",
+            "telephone": ""
+    },
+            "billing_address": {
+            "email": instrumentResponse.payerEmail,
+                    "region": instrumentResponse.details.billingAddress.city,
+                    "region_id": 0,
+                    "region_code": instrumentResponse.details.billingAddress.region,
+                    "country_id": instrumentResponse.details.billingAddress.country,
+                    "street": instrumentResponse.details.billingAddress.addressLine,
+                    "postcode": instrumentResponse.details.billingAddress.postalCode,
+                    "city": instrumentResponse.details.billingAddress.city,
+                    "telephone": instrumentResponse.details.billingAddress.phone,
+                    "firstname": firstName,
+                    "lastname": lastName
+            },
+            "shipping_carrier_code": "",
+            "shipping_method_code": ""
+    }
+    }
+
+   
+
+    if (instrumentResponse.shippingAddress) {
+    //shipping information
+    customerDetails.addressInformation.shipping_address.region = instrumentResponse.shippingAddress.city;
+    customerDetails.addressInformation.shipping_address.region_id = 0;
+    customerDetails.addressInformation.shipping_address.region_code = instrumentResponse.shippingAddress.region;
+    customerDetails.addressInformation.shipping_address.country_id = instrumentResponse.shippingAddress.country;
+    customerDetails.addressInformation.shipping_address.street = instrumentResponse.shippingAddress.addressLine;
+    customerDetails.addressInformation.shipping_address.postcode = instrumentResponse.shippingAddress.postalCode;
+    customerDetails.addressInformation.shipping_address.city = instrumentResponse.shippingAddress.city;
+    customerDetails.addressInformation.shipping_address.telephone = instrumentResponse.shippingAddress.phone;
+    customerDetails.addressInformation.shipping_address.firstname = firstName;
+    customerDetails.addressInformation.shipping_address.lastname = lastName;
+    }
+
+    //Shipping information
+    customerDetails.addressInformation.shipping_carrier_code = carrierCode;
+    customerDetails.addressInformation.shipping_method_code = instrumentResponse.shippingOption;
+    
+    var jsonCustomerDetails = JSON.stringify(customerDetails);
+    let cardNo = instrumentResponse.details.cardNumber;
+    //Get the card type
+    cardType = getCardType(cardNo);
+    
+    if (instrumentResponse.shippingAddress) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", apiUrl, false);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.setRequestHeader("Authorization", token);
+    xhttp.send(jsonCustomerDetails);
+    }
+
+    //card details
+    let cardNumber = instrumentResponse.details.cardNumber;
+    let cvc = instrumentResponse.details.cardSecurityCode;
+    let cardholderName = instrumentResponse.details.cardholderName;
+    let expiryMonth = instrumentResponse.details.expiryMonth;
+    let expiryYear = instrumentResponse.details.expiryYear;
+    //Add payment information and place the order
+    var paymentDetails = {
+    "paymentMethod": {
+    "method": "worldpay_cc",
+            "additional_data": {
+            "cc_cid" : cvc,
+                    "cc_type" : cardType,
+                    "cc_exp_year" : expiryYear,
+                    "cc_exp_month" : expiryMonth,
+                    "cc_number" : cardNumber,
+                    "cc_name" : cardholderName,
+                    "save_my_card" : false,
+                    "cse_enabled" : false,
+                    "encryptedData" : null,
+                    "tokenCode" : null,
+                    "isSavedCardPayment" : false,
+                    "isChromePay" : "1"
+            }
+    },
+            "billing_address": {
+            "email": instrumentResponse.payerEmail,
+                    "region": instrumentResponse.details.billingAddress.city,
+                    "region_id": 0,
+                    "region_code": instrumentResponse.details.billingAddress.region,
+                    "country_id": instrumentResponse.details.billingAddress.country,
+                    "street": instrumentResponse.details.billingAddress.addressLine,
+                    "postcode": instrumentResponse.details.billingAddress.postalCode,
+                    "city": instrumentResponse.details.billingAddress.city,
+                    "telephone": instrumentResponse.details.billingAddress.phone,
+                    "firstname": firstName,
+                    "lastname": lastName
+            }
+    };
+    var jsonPaymentDetails = JSON.stringify(paymentDetails);
+    var orderApiUrl;
+    if (isCustomerLoggedIn) { //Api for logged in customer
+    orderApiUrl = baseUrl + 'rest/default/V1/carts/mine/payment-information';
+    } else { // Api for guest customer
+    orderApiUrl = baseUrl + 'rest/default/V1/guest-carts/' + guestMaskedQuoteId + '/order';
+    }
+
+    var xhttp = new XMLHttpRequest();
+    if (isCustomerLoggedIn) {
+    xhttp.open("POST", orderApiUrl, false);
+    } else {
+    xhttp.open("PUT", orderApiUrl, false);
+    }
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.setRequestHeader("Authorization", token);
+    xhttp.send(jsonPaymentDetails);
+    var orderResponse = JSON.parse(xhttp.responseText);
+    //console.log(orderResponse);
+   
+   if(isNaN(orderResponse)){
+        window.location.href = baseUrl + 'checkout/cart?error=true';
+        exit;
+    }
+   
+    return orderResponse;
+    }// --------------------- end of createOrder ----------------
+
+    function getCardType(cardNumber) {
+    // visa
+    var re = new RegExp("^4");
+    if (cardNumber.match(re) != null)
+            return "VISA-SSL";
+    // Mastercard 
+    // Updated for Mastercard 2017 BINs expansion
+    if (/^(5[1-5][0-9]{14}|2(22[1-9][0-9]{12}|2[3-9][0-9]{13}|[3-6][0-9]{14}|7[0-1][0-9]{13}|720[0-9]{12}))$/.test(cardNumber))
+            return "ECMC-SSL";
+    // AMEX
+    re = new RegExp("^3[47]");
+    if (cardNumber.match(re) != null)
+            return "AMEX-SSL";
+    // Discover
+    re = new RegExp("^(6011|622(12[6-9]|1[3-9][0-9]|[2-8][0-9]{2}|9[0-1][0-9]|92[0-5]|64[4-9])|65)");
+    if (cardNumber.match(re) != null)
+            return "DISCOVER-SSL";
+    // Diners
+    re = new RegExp("^36");
+    if (cardNumber.match(re) != null)
+            return "DINERS-SSL";
+    // Diners - Carte Blanche
+    re = new RegExp("^30[0-5]");
+    if (cardNumber.match(re) != null)
+            return "DINERS-SSL";
+    // JCB
+    re = new RegExp("^35(2[89]|[3-8][0-9])");
+    if (cardNumber.match(re) != null)
+            return "JCB-SSL";
+    // Visa Electron
+    re = new RegExp("^(4026|417500|4508|4844|491(3|7))");
+    if (cardNumber.match(re) != null)
+            return "VISA-SET";
+    re = new RegExp("^62|88");
+    if (cardNumber.match(re) != null)
+            return "CHINAUNIONPAY-SSL";
+    return "";
+    } //end of getCardType
+</script>
+</div></header> <div class="sections nav-sections">
+<div class="nav-actions">
+<a href="https://www.packtpub.com/customer/account/login/" class="nav-action primary login">
+Sign In </a>
+<a href="https://www.packtpub.com/customer/account/create/" class="nav-action register">
+Register </a>
+</div>
+<div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+<div class="section-item-title nav-sections-item-title" data-role="collapsible">
+<a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Menu</a>
+</div>
+<div class="section-item-content nav-sections-item-content" id="store.links" data-role="content"></div>
+</div>
+</div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page-title-wrapper">
+<h1 class="page-title">
+<span class="base" data-ui-id="page-title-wrapper">Page Not Found | Error 404</span> </h1>
+</div>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+<!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+<!-- ko if: messages().messages && messages().messages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="zkbdmkInhN6gf8mL" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+<script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.packtpub.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.packtpub.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.packtpub.com\/"};
+    </script>
+<!-- ko template: getTemplate() --><!-- /ko -->
+<script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.packtpub.com\u002Fstatic\u002Fversion1650969320\u002Ffrontend\u002FPackt\u002Fdefault\u002Fen_GB\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":"*","stores\/store\/switchrequest":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":["recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/account\/editpost":"*","customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data","magepal-gtm-jsdatalayer"],"checkout\/cart\/delete":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/updatepost":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/updateitemoptions":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/couponpost":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/estimatepost":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/estimateupdatepost":["cart","magepal-gtm-jsdatalayer"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","magepal-gtm-jsdatalayer","checkout-fields"],"checkout\/sidebar\/removeitem":["cart","magepal-gtm-jsdatalayer"],"checkout\/sidebar\/updateitemqty":["cart","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase","magepal-gtm-jsdatalayer"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"ammostviewed\/cart\/add":["cart","messages"],"packt\/index\/index":["cart","checkout-data"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/www.packtpub.com\/","http:\/\/www.packtpub.com\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","multiplewishlist","persistent","review","chatData","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement","magepal-gtm-jsdatalayer","checkout-fields","collection-point-result","pickup-location-result"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fwww.packtpub.com\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "3600",
+                "updateSessionUrl": "https\u003A\u002F\u002Fwww.packtpub.com\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.packtpub.com\/page_cache\/block\/render\/","handles":["default","cms_noroute_index","cms_page_view","cms_noroute_index_id_no-route"],"originalRequest":{"route":"cms","controller":"noroute","action":"index","uri":"\/sites\/default\/files\/7488OS_cov.jpg"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Banner/js/model/banner":
+            {"sectionLoadUrl":"https:\/\/www.packtpub.com\/banner\/ajax\/load\/","cacheTtl":30000}        }
+}
+</script>
+<script>
+    window.customConfig = window.customConfig || {};
+    window.customConfig.isCartInterruptEnabled = false;
+    window.customConfig.cartInterruptKey = 'checkout-subscription'
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "gtm-customer": {
+                        "component": "Packt_GoogleTagManager/js/customer-object",
+                        "ajaxUrl": "https://www.packtpub.com/packtgtm/ajax/customer/"
+                    }
+                }
+            }
+        }
+    }
+</script>
+<h3>The page you requested was not found</h3>
+<dl><dt>What can you do?</dt></dl>
+<ul class="disc">
+<li><a href="javascript:history.go(-1)">Go back</a> to the previous page.</li>
+<li>Use the search bar at the top of the page to search for a product or technology.</li>
+<li>Follow these links to get you back on track!<br /><a href="https://www.packtpub.com/">Packt Home</a> <span class="separator">|</span> <a href="https://account.packtpub.com/login">My Account</a> <span class="separator">|</span> <a href="https://www.packtpub.com/free-learning">Free Learning</a> <span class="separator">|</span> <a href="https://www.packtpub.com/deal-of-the-day">Deal of the Day</a></li>
+</ul></div></div></main><div class="main-widget-container"><div class="widget-container"><script type="text/x-magento-init">
+    {
+        "[data-role=tocart-form], .form.map.checkout": {
+            "catalogAddToCart": {
+                "bindSubmit": true
+            }
+        }
+    }
+</script>
+</div></div><footer class="page-footer"><div class="footer content"><div class="block newsletter">
+<p class="newsletter-intro">Sign up to our emails for regular updates, bespoke offers, exclusive discounts and great free content.</p>
+<div class="title"><strong>Newsletter</strong></div>
+<div class="content">
+<form class="form subscribe" novalidate action="https://www.packtpub.com/newsletter/subscriber/new/" method="post" data-mage-init='{"validation": {"errorClass": "mage-error"}}' id="newsletter-validate-detail">
+<div class="field newsletter">
+<label class="label" for="newsletter"><span>Sign Up for Our Newsletter:</span></label>
+<div class="control">
+<input name="email" type="email" id="newsletter" placeholder="Enter&#x20;your&#x20;email&#x20;address" data-validate="{required:true, 'validate-email':true}" />
+</div>
+</div>
+<div class="actions">
+<button class="action subscribe primary" title="Submit" type="submit">
+<span>Submit</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Packt_Marketing/js/newsletter": {}
+        }
+    }
+</script><script type="text/javascript" id="feefo-plugin-widget-bootstrap" src="//ww2.feefo.com/api/ecommerce/plugin/widget/merchant/packt-publishing" async></script><div class="footer-link-block-one">
+<h3>Useful Links</h3>
+<ul class="footer links">
+<li class="nav item"><a href="https://www.packtpub.com/about">About Us</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/authors">Our Authors</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/about/press">Press</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/about/careers">Careers</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/about/privacy-policy">Privacy Policy</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/about/cookie-policy">View our Cookie Policy</a></li>
+</ul></div>
+<div class="footer-link-block-two">
+<h3><a style="color: #ffffff; text-decoration: none;" href="https://www.packtpub.com/support">Help &amp; Support</a></h3>
+<ul class="footer links">
+<li class="nav item"><a href="https://www.packtpub.com/support">Support Home</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/support/faq">Frequently Asked Questions</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/support/purchases">Orders &amp; Purchases</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/support/code-downloads">Code Download &amp; Errata</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/support/errata">Submit Errata</a></li>
+<li class="nav item"><a href="https://www.packtpub.com/contact">Contact Us</a></li>
+</ul></div>
+<div class="footer-link-block-three">
+<div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;"><div data-content-type="html" data-appearance="default" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-decoded="true"><h3>Social</h3>
+<ul class="social-link">
+<li><a href="https://www.facebook.com/PacktPub/" target="_blank"> <span class="fab fa-facebook-f"></span></a></li>
+<li><a href="https://www.twitter.com/PacktPublishing" target="_blank"> <span class="fab fa-twitter"></span></a></li>
+<li><a href="https://www.linkedin.com/company/packt-publishing/" target="_blank"> <span class="fab fa-linkedin"></span></a></li>
+<li><a href="https://www.youtube.com/user/packt1000/featured" target="_blank"> <span class="fab fa-youtube"></span></a></li>
+<li><a href="https://github.com/PacktPublishing" target="_blank"> <span class="fab fa-github"></span></a></li>
+<li><a href="https://hub.packtpub.com/feed/" target="_blank"> <span class="fa fa-rss"></span></a></li>
+</ul></div></div></div></div>
+<small class="copyright">
+<span>The word &#039;Packt&#039; and the Packt logo are registered trademarks belonging to Packt Publishing Limited. All rights reserved</span>
+</small>
+<div id="store-reselect">
+<span class="flag" data-action="geoip__show-store-switcher">
+<img src="https://www.packtpub.com/static/version1650969320/frontend/Packt/default/en_GB/MageWorx_GeoIP/images/flags/us.png" alt="United States" title="United States">
+</span>
+<span class="country" title="United States" data-action="geoip__show-store-switcher">United States</span>
+</div>
+</div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.packtpub.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.packtpub.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.packtpub.com\/rest\/us\/V1\/products-render-info"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+<div id="packt_gdpr_container" data-bind="scope:'packt_gdpr__cookie_compliance'">
+<!-- ko template: getTemplate() --><!-- /ko -->
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+               "components": {
+                    "packt_gdpr__cookie_compliance": {"component":"packtCookieCompliance","template":"Packt_Gdpr\/ko\/cookie_compliance","default_cookie":"packt_gdpr","privacy_cookie":"packt_privacy","required_cookie":"packt_required","performance_cookie":"packt_performance","target_cookie":"packt_target","rakuten_cookie":"__rmcp","cookie_expiry":"28","hide_message":"Accept","more_message":"Learn more","more_link":"\/about\/privacy-policy","message":"This website uses cookies and other tracking technology to analyse traffic, personalise ads and learn how we can improve the experience for our visitors and customers. We may also share information with trusted third-party providers. For an optimal-browsing experience please click 'Accept'.","status":true}                }
+            }
+        }
+    }
+        </script>
+</div>
+<script>
+    window.googleAnalyticsUA = 'UA-284627-1'
+</script>
+
+<div id="cookie_modal" class="gdpr_modal">
+
+<div class="modal-content">
+<span class="close">&times;</span>
+<div id="cookiePopup" class="simplemodal-container">
+<div class="sm-modal-title">
+<div class="title-container">
+Privacy Centre
+</div>
+</div>
+<div class="sm-modal-body">
+<div class="tab-container">
+<ul class="tab-header">
+<li class="first active">
+<a href="#tab_first">
+1. Your Privacy
+</a>
+</li>
+<li>
+<a href="#tab_required_cookies">
+2. Strictly Necessary Cookies
+</a>
+</li>
+<li>
+<a href="#tab_performance_cookies">
+3. Performance Cookies
+</a>
+</li>
+<li>
+<a href="#tab_targeting_cookie">
+4. Targeting Cookies
+</a>
+</li>
+</ul>
+<div class="tab-content-wrapper">
+<div class="tab-item active" id="tab_first">
+<div class="tab-item-header">
+Your Privacy
+</div>
+<div class="choice-description">
+<p>When you visit any website, it may store or retrieve information on your browser,usually in the form of cookies. This information does not usually identify you, but it does help companies to learn how their users are interacting with the site.</p>
+<p>We respect your right to privacy, so you can choose not to accept some of these cookies. Choose from the different category headers to find out more and change your default settings.</p>
+<p>Please note if you have arrived at our site via a cashback website, turning off targeting or performance cookies will mean we cannot verify your transaction with the referrer and you may not receive your cashback.</p> </div>
+</div>
+<div class="tab-item" id="tab_required_cookies">
+<div class="tab-item-header">
+Strictly Necessary Cookies
+<label class="required-option-text">
+Always active
+</label>
+</div>
+<div class="choice-description">
+<p>These cookies are essential for the website to function and they cannot be turned off. They are usually only set in response to actions made by you on our site, such as logging in, adding items to your cart or filling in forms. If you browse our website, you accept these cookies.</p> </div>
+<div class="choice-list-wrapper">
+<div class="choice-list-header">
+Cookies are used by
+</div>
+<ul class="choice-list">
+<li>Packt Publishing</li>
+<li>Google Analytics</li>
+<li>Heap</li>
+<li>Hotjar</li>
+</ul>
+</div>
+</div>
+<div class="tab-item" id="tab_performance_cookies">
+<div class="tab-item-header">
+Performance Cookies
+<label class="checkbox-container">
+<input class="cookie-choice-check" type="checkbox" data-name="performance_cookies" id="performance_cookies" name="performance_cookies" checked="checked">
+<span class="checkmark"></span>
+</label>
+</div>
+<div class="choice-description">
+<p>These cookies allow us to keep track of how many people have visited our website, how they discovered us, and how they interact with the site.All the information used is aggregated, and completely anonymous. If you do not allow these cookies we won’t know you have visited us.</p> </div>
+<div class="choice-list-wrapper">
+<div class="choice-list-header">
+Cookies are used by
+</div>
+<ul class="choice-list">
+<li>Facebook Pixel</li>
+<li>Google Adwords</li>
+</ul>
+</div>
+</div>
+ <div class="tab-item" id="tab_targeting_cookie">
+<div class="tab-item-header">
+Targeting Cookies
+<label class="checkbox-container">
+<input class="cookie-choice-check" type="checkbox" data-name="targeting_cookie" id="targeting_cookie" name="targeting_cookie" checked="checked">
+<span class="checkmark"></span>
+</label>
+</div>
+<div class="choice-description">
+<p>These cookies are placed on our site by our trusted third-party providers.They help us to personalise our adverts and provide services to our customers such as live chat.</p>
+<p>If you have arrived at our site via a cashback website, turning off Targeting Cookies will mean we cannot verify your transaction with the referrer and you may not receive your cashback.</p> </div>
+<div class="choice-list-wrapper">
+<div class="choice-list-header">
+Cookies are used by
+</div>
+<ul class="choice-list">
+<li>Criteo</li>
+<li>Get site control</li>
+<li>Rakuten</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sm-modal-footer">&nbsp;
+<button id="cookieAllowAll" type="button" style="">Allow all</button>
+<button id="cookieSaveChoice" type="button">Save</button>
+</div>
+</div>
+</div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "single-signon": {
+                        "component": "Packt_SingleSignOn/js/api/single-sign-on",
+                        "accessTokenLabel": "access_token_live",
+                        "refreshTokenLabel": "refresh_token_live",
+                        "storeCode": "us",
+                        "cookieDomain": "packtpub.com",
+                        "customerEmail": ""
+                    }
+                }
+            }
+        }
+    }
+</script>
+</div> <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-0f4d86b78cc0c8047b9","applicationID":"475968873","transactionName":"NlJRYxRWDBFSAEBaCg8YclQSXg0MHABZQEoPWEFYE0MHTVoNUFYd","queueTime":0,"applicationTime":337,"atts":"GhVGFVxMH04RAhYJHhxK","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"725d6ec73c329e64","token":"ddafdcc8d2d544fe9874fe3f5dda8e4d","version":"2022.6.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
